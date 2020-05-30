@@ -1,56 +1,49 @@
 <p align="center">
-<img src="https://github.com/fsclaro/blackbird/blob/master/public/img/front-page.png">
+<img src="https://github.com/fsclaro/blackbird7/blob/master/public/img/front-page.png">
 </p>
-
-[![Latest Stable Version](https://poser.pugx.org/fsclaro/blackbird/v/stable)](https://packagist.org/packages/fsclaro/blackbird)
-[![Total Downloads](https://poser.pugx.org/fsclaro/blackbird/downloads)](https://packagist.org/packages/fsclaro/blackbird)
-[![Latest Unstable Version](https://poser.pugx.org/fsclaro/blackbird/v/unstable)](https://packagist.org/packages/fsclaro/blackbird)
-[![Monthly Downloads](https://poser.pugx.org/fsclaro/blackbird/d/monthly)](https://packagist.org/packages/fsclaro/blackbird)
-[![Daily Downloads](https://poser.pugx.org/fsclaro/blackbird/d/daily)](https://packagist.org/packages/fsclaro/blackbird)
-[![License](https://poser.pugx.org/fsclaro/blackbird/license)](https://packagist.org/packages/fsclaro/blackbird)
-
 
 ## About this project
 
-The **Blackbird Project** is intended to be a starting point for other projects based on the Laravel framework. Containing in this boilerplate several packages that can aid and accelerate the construction of your web projects.
+The **Blackbird7 Project** is intended to be a starting point for other projects based on the Laravel framework. Containing in this boilerplate several packages that can aid and accelerate the construction of your web projects.
 
 ## Laravel Environment
 
 - PHP Version: ^7.2
-- Laravel Version: 6.*
+- Laravel Version: 7.*
 - Timezone: America/Sao_Paulo
 - Locale: pt_BR
-- Database: MySQL - Version: 5.7.27-0ubuntu0.18.04.1
+- Database: MySQL/MariaDB
 
 ## Third-party Packages included
 
-- arcanedev/log-viewer: ^5.1
-- arcanedev/route-viewer: ^2.1
-- arrilot/laravel-widgets: ^3.13
-- creativeorange/gravatar: ^1.0
-- davejamesmiller/laravel-breadcrumbs: ^5.3
-- jeroennoten/laravel-adminlte: ^3.0
-- laravel/envoy: ^1.6
-- laravel/socialite: ^4.3
-- realrashid/sweet-alert: ^3.0
-- spatie/laravel-backup: ^6.7
-- spatie/laravel-medialibrary: ^7.14
-- spatie/laravel-sluggable: ^2.2
-- unsplash/unsplash: ^2.5
-- yajra/laravel-datatables-oracle: ^9.7
+- arcanedev/log-viewer
+- arcanedev/route-viewer
+- arrilot/laravel-widgets
+- consoletvs/charts
+- creativeorange/gravatar
+- davejamesmiller/laravel-breadcrumbs
+- jeroennoten/laravel-adminlte
+- laravel/socialite
+- realrashid/sweet-alert
+- spatie/laravel-backup
+- spatie/laravel-medialibrary
+- spatie/laravel-sluggable
+- unsplash/unsplash
+- yajra/laravel-datatables-oracle
 
 ## Third-party Packages for Development Mode included
 
-- barryvdh/laravel-ide-helper: ^2.6
-- deployer/deployer: ^6.6
-- laravel/ui: ^1.1
-- matt-allan/laravel-code-style: ^0.4.0
+- arryvdh/laravel-debugbar
+- barryvdh/laravel-ide-helper
+- laravel/ui
+- matt-allan/laravel-code-style
+- squizlabs/php_codesniffer
 
 ## Cloning this project
 
 To use this project, you must type the following line in your command terminal
 ```bash
-git clone https://github.com/fsclaro/blackbird.git
+git clone git@github.com:fsclaro/blackbird7.git
 ```
 
 You will need a mysql server installed e configured, then execute the command below to create a database for the your project.
@@ -67,7 +60,7 @@ DB_PASSWORD=<PASSWORD_OF_YOUR_MYSQL_USERNAME>
 
 The default values are
 ```bash
-DB_DATABASE=blackbird
+DB_DATABASE=bb7
 DB_USERNAME=homestead
 DB_PASSWORD=secret
 ```
@@ -84,10 +77,11 @@ php artisan storage:link
 ## Defaults Login Users
 This boilerplate have two defaults users
 
-| User      | Login             | Password |
-|-----------|-------------------|----------|
-| **Admin** | admin@blackbird.test | password |
-| **User**  | user@blackbird.test  | password |
+| User           | Login               | Password |
+|----------------|---------------------|----------|
+| **SuperAdmin** | superadmin@bb7.test | superman |
+| **Admin**      | admin@bb7.test      | password |
+| **User**       | user@bb7.test       | password |
 
 
 ## New composer commands
@@ -122,11 +116,11 @@ This project is configured for the Brazilian Portuguese Language with the *timez
 
 ## Contributing
 
-Thank you for considering contributing to the *blackbird Project*! If you have good ideas to make this project better, read the [contribution guidelines](https://github.com/fsclaro/blackbird/blob/master/CONTRIBUTING.md) on contributions and send me an email to [fsclaro@gmail.com](mailto:fsclaro@gmail.com)
+Thank you for considering contributing to the *blackbird Project*! If you have good ideas to make this project better, read the [contribution guidelines](https://github.com/fsclaro/blackbird7/blob/master/CONTRIBUTING.md) on contributions and send me an email to [fsclaro@gmail.com](mailto:fsclaro@gmail.com)
 
 ## Code of Conduct
 
-It is very important that you read our [code of conduct](https://github.com/fsclaro/blackbird/blob/master/CODE_OF_CONDUCT.md) so that there is a healthy coexistence among all members participating in this project.
+It is very important that you read our [code of conduct](https://github.com/fsclaro/blackbird7/blob/master/CODE_OF_CONDUCT.md) so that there is a healthy coexistence among all members participating in this project.
 
 ## Security Vulnerabilities
 
@@ -134,18 +128,4 @@ If you discover a security vulnerability within this project, please send an e-m
 
 ## License
 
-This project is open-sourced software licensed under the [MIT license](https://github.com/fsclaro/blackbird/blob/master/LICENSE.md).
-
-## Credits
-
-The background images at [Unplash](https://unsplash.com) by authors/photographers:
-- [Adam Kedem](https://unsplash.com/@adamk)
-- [Alessandro Valenzano](https://unsplash.com/@alessvalenzano)
-- [Alexandre Chambon](https://unsplash.com/@goodspleen)
-- [Boris Baldinger](https://unsplash.com/@borisbaldinger)
-- [David Emrich](https://unsplash.com/@otoriii)
-- [Francesco Ungaro](https://unsplash.com/@francesco_ungaro)
-- [Iswanto Arif](https://unsplash.com/@iswanto)
-- [Janita Top](https://unsplash.com/@janitatop)
-- [Philipp Wüthrich](https://unsplash.com/@phiwut)
-- [Piermanuele Sberni](https://unsplash.com/@piermanuele_sberni)
+This project is open-sourced software licensed under the [MIT license](https://github.com/fsclaro/blackbird7/blob/master/LICENSE.md).
