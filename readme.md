@@ -116,11 +116,11 @@ This project is configured for the Brazilian Portuguese Language with the *timez
 
 ## Contributing
 
-Thank you for considering contributing to the *blackbird Project*! If you have good ideas to make this project better, read the [contribution guidelines](https://github.com/fsclaro/blackbird7/blob/master/CONTRIBUTING.md) on contributions and send me an email to [fsclaro@gmail.com](mailto:fsclaro@gmail.com)
+Thank you for considering contributing to the *blackbird Project*! If you have good ideas to make this project better, read the [contribution guidelines](https://github.com/fsclaro/blackbird7/blob/master/_docs/CODE_OF_CONDUCT.md) on contributions and send me an email to [fsclaro@gmail.com](mailto:fsclaro@gmail.com)
 
 ## Code of Conduct
 
-It is very important that you read our [code of conduct](https://github.com/fsclaro/blackbird7/blob/master/CODE_OF_CONDUCT.md) so that there is a healthy coexistence among all members participating in this project.
+It is very important that you read our [code of conduct](https://github.com/fsclaro/blackbird7/blob/master/_docs/CODE_OF_CONDUCT.md) so that there is a healthy coexistence among all members participating in this project.
 
 ## Security Vulnerabilities
 
@@ -128,4 +128,4 @@ If you discover a security vulnerability within this project, please send an e-m
 
 ## License
 
-This project is open-sourced software licensed under the [MIT license](https://github.com/fsclaro/blackbird7/blob/master/LICENSE.md).
+This project is open-sourced software licensed under the [MIT license](https://github.com/fsclaro/blackbird7/blob/master/_docs/LICENSE.md).
