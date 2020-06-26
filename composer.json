@@ -31,7 +31,7 @@
         "laravel/socialite": "^4.3",
         "laravel/tinker": "^2.0",
         "realrashid/sweet-alert": "^3.0",
-        "spatie/laravel-backup": "^6.7",
+        "spatie/laravel-backup": "^6.10",
         "spatie/laravel-medialibrary": "^7.14",
         "spatie/laravel-sluggable": "^2.2",
         "unsplash/unsplash": "^2.5",
