@@ -209,7 +209,7 @@
     };
 
     function changeCheckbox() {
-        var checkBox = document.getElementById('chk-activities');
+        var checkBox = document.getElementsByName('chk-activities');
         var allCheckBox = document.getElementsByName('ids[]');
 
         for (let i = 0; i < allCheckBox.length; i++) {
